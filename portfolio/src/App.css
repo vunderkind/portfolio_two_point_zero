@@ -8,13 +8,26 @@ body {
   height: 95vh;
 }
 
+.Move {
+  animation: MoveUpDown 2s ease-in-out infinite;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    transform: translate(-10px);
+  }
+  50% {
+    transform: translate(10px);
+  }
+}
+
 .Bio{
   display: flex;
   justify-content: center;
   flex-direction: column;
   padding-left: 10vw;
   padding-right: 10vw;
-  padding-top: 10vh;
+  padding-top: 3vh;
 }
 .Nav {
   display: flex;
@@ -33,8 +46,11 @@ body {
 
 .Arrow {
   display: flex;
+  flex-direction: row;
   padding-right: 25px;
 }
+
+
 .Home {
   padding-right: 5vw;
   padding-left: 5vw;
@@ -57,9 +73,9 @@ body {
 
 .Home h1 {
   /* color: rgb(48, 48, 48); */
-  font-size: 50px;
+  font-size: 70px;
   font-family: 'Josefin Sans', sans-serif;
-  /* font-weight: bold; */
+  font-weight: bold;
   margin: 0;
 }
 
@@ -76,4 +92,14 @@ h2 {
   position: absolute;
   bottom: 0;
   left: inherit;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 7vw;
+  margin-bottom: 30px;
+}
+
+#Footer p {
+  margin: 0;
+  margin-bottom: 10px;
+  padding-right: 5px;
 }

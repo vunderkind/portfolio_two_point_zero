@@ -21,25 +21,25 @@ const GlobalStyles = createGlobalStyle`
   }
 
   a:hover {
-    background: red;
+    background: black;
     color: white;
   }
 `;
 
 const lightTheme = {
-  body: '#fff',
+  body: '#ffe57d',
   text: '#363537',
   toggleBorder: '#000',
   background: '#000',
-  a: '#fa5282'
+  a: '#000'
 }
 
 const darkTheme = {
-  body: '#363537',
-  text: '#dbdbd9',
+  body: '#000',
+  text: '#ffbd69',
   toggleBorder: '#6B8096',
-  background: 'black',
-  a: '#52cafa'
+  background: '#241F1C',
+  a: '#ff6363'
 }
 
 const Toggle = ({ theme, toggleTheme }) => {
@@ -70,6 +70,7 @@ const ToggleContainer = styled.button`
   padding: 0rem;
   overflow: hidden;
   cursor: pointer;
+  outline: none;
 
   img {
     max-width: 2.2rem;
@@ -119,18 +120,18 @@ function App() {
   return (
     <ThemeProvider theme={themeMode}>
       <div className="Nav">
-          <p>{theme === 'light'? 'Justin Irabor':'Mogwai'}</p>
+          <a href="https://justinirabor.com"><strong><p>{theme === 'light'? 'Justin Irabor':'Mogwai'}</p></strong></a>
           <div className="Resume">
           <span className="Arrow">
-          <p>Resume</p>
+          <a href="#"><p>Resume</p></a>
           <Arrow className="Arrow"/>
           </span>
           <span className="Arrow">
-          <p>Blog</p>
+          <a href="https://dev.to/vunderkind"><p>Blog</p></a>
           <Arrow />
           </span>
           <span className="Arrow">
-          <p>Contact</p>
+          <a href="mailto:'justin.irabor@gmail.com'"><p>Contact</p></a>
           <Arrow />
           </span>
           <Toggle theme={theme} toggleTheme={toggleTheme} />
@@ -138,33 +139,15 @@ function App() {
           </div>
       <div className="Home">
         <GlobalStyles />
-        
-        <div className="Toggl">
-        {/* <h1>{theme === 'light' ? 'Justin Irabor' : 'Mogwai'}</h1> */}
-        
-        </div>
         <div className="Bio">
+          <div className="Move">
         <h1>{theme === 'light'? '🦔':'🦊'}</h1>
-        <h2><strong>Justin Irabor</strong><br/>Full-stack dev. I work to mitigate the balkanization of digital disciplines.<br/> <a href="mailto:'thevunderkind@gmail.com">Let's talk 🤺.</a></h2>
+          </div>
+        <h1>{theme === 'light'? 'Hello! I am Justin Irabor.': 'mogwai'}</h1>
+        {theme === 'light' ? <h2>Full-stack dev. I work to mitigate the balkanization of digital disciplines.<br/> <a href="mailto:'thevunderkind@gmail.com">Let's talk 🤺.</a></h2>: <h2>A problem-solvin' language-learnin' sunuvabish 🙊. Has the mind 🧠 of an artist 🎨 and the keen eye 👀 of a growth engineer 📈. Loves pizza 🍕, cats (in theory 🙀), story-driven rap music and knowing things no one will ever have a good use for 🤓. <br/><br/>Armed with a particular set of skills 🧰: JavaScript (Vanilla, React, Node), Parseltongue 🐍(Python, Django, Flask), Backend(SQL, MongoDB), Git and an infinite brain.</h2>}
         </div>
         </div>
-        <div className="Nav" id="Footer">
-          <p>{theme === 'light'? 'Justin Irabor':'Mogwai'}</p>
-          <div className="Resume">
-          <span className="Arrow">
-          <p>Resume</p>
-          <Arrow className="Arrow"/>
-          </span>
-          <span className="Arrow">
-          <p>Blog</p>
-          <Arrow />
-          </span>
-          <span className="Arrow">
-          <p>Contact</p>
-          <Arrow />
-          </span>
-          </div>
-          </div>
+        <Footer />
     </ThemeProvider>
   );
 };
