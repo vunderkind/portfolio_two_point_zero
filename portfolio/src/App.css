@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@700&display=swap');
+body {
+  /* background: yellow; */
+  width: 100vw;
+  /* padding-top: 90px; */
+  margin: 0 auto;
+  height: 95vh;
+}
+
+.Bio{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 10vh;
+}
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  width: 85vw;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.Resume {
+  display: flex;
+}
+
+.Resume p {
+  padding-right: 5px;
+}
+
+.Arrow {
+  display: flex;
+  padding-right: 25px;
+}
+.Home {
+  padding-right: 5vw;
+  padding-left: 5vw;
+  width: 70vw;
+  margin: 0 auto;
+  margin-top: 10vh;
+  display: flex;
+  padding-bottom: 2.5rem;
+}
+
+.Toggl {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: baseline;
+  /* justify-content: space-evenly; */
+}
+
+
+
+.Home h1 {
+  /* color: rgb(48, 48, 48); */
+  font-size: 50px;
+  font-family: 'Josefin Sans', sans-serif;
+  /* font-weight: bold; */
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+
+#Footer {
+  /* position: absolute; */
+  width: 85vw;
+  position: absolute;
+  bottom: 0;
+  left: inherit;
+}
