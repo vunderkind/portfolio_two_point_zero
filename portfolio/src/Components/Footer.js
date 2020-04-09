@@ -1,5 +1,7 @@
 import React from 'react';
-import './App'
+import '../App.css'
+import {BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom'
+import Test from './Test'
 
 const Arrow = () => {
     return (
@@ -23,7 +25,12 @@ const Footer = () => {
         </a>
         </div>
         <div className="Right">
-        <a href="#"><span className="Arrow"><p>Projects</p><Arrow/></span></a>
+            <Router>
+        <Link className = "Arrow" to="/projects">Projects</Link><Arrow/>
+                <Switch>
+                <Route exact path="/projects" component={Test} />
+                </Switch>
+        </Router>
         </div>
     </div>
     )

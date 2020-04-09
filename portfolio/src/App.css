@@ -87,11 +87,10 @@ h2 {
 
 
 #Footer {
-  /* position: absolute; */
   width: 85vw;
   position: absolute;
   bottom: 0;
-  left: inherit;
+  left: 50;
   display: flex;
   justify-content: space-between;
   margin-left: 7vw;
