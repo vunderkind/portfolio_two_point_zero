@@ -1,11 +1,12 @@
 import React from 'react'
 import Arrow from './Arrow'
 import Toggle from './Toggle'
+import {BrowserRouter as Router, Link,} from 'react-router-dom'
 
 function Header(props) {
     return(
         <div className="Nav">
-          <a href="https://justinirabor.com"><strong><p>{props.theme === 'light'? 'Justin Irabor':'Mogwai'}</p></strong></a>
+          <a href="/"><strong><p>{props.theme === 'light'? '<justin/>':'<mogwai/>'}</p></strong></a>
           <div className="Resume">
           <span className="Arrow">
           <a href="#"><p>Resume</p></a>

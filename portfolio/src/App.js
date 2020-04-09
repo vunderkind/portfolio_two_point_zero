@@ -6,6 +6,9 @@ import Footer from './Components/Footer'
 import Projects from './Projects'
 import Header from './Components/Header'
 import Home from './Components/Home'
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
+import Arrow from './Components/Arrow';
+import Test from './Components/Test'
 
 const GlobalStyles = createGlobalStyle`
   body {
@@ -81,9 +84,19 @@ function App() {
     <ThemeProvider theme={themeMode}>
       <GlobalStyles/>
       <Header theme={theme} toggleTheme={toggleTheme}/>
-        <Home theme={theme}/>
-        <Footer />
-        <Projects/>
+            <Router>
+            <Route exact path="/projects"><Projects/></Route>
+            <Route exact path="/"><Home theme={theme}/></Route>
+            </Router>
+          <nav id="Footer">
+          <span className="Left">
+            <a href="#"><p>LinkedIn<Arrow/></p></a>
+            <a href="/"><p>Github<Arrow/></p></a>
+            </span>
+            <a href="/projects">Projects<Arrow/></a>
+            
+          </nav>
+        {/* <Footer /> */}
     </ThemeProvider>
   );
 };
