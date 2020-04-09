@@ -3,6 +3,7 @@ import './App.css';
 import {useState, useEffect} from 'react';
 import styled, { createGlobalStyle, ThemeProvider } from 'styled-components';
 import Footer from './Footer'
+import Projects from './Projects'
 
 const GlobalStyles = createGlobalStyle`
   body {
@@ -148,6 +149,7 @@ function App() {
         </div>
         </div>
         <Footer />
+        <Projects/>
     </ThemeProvider>
   );
 };
