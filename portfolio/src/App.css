@@ -21,6 +21,21 @@ body {
   }
 }
 
+.Projects{
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  padding-left: 8vw;
+  
+}
+
+.Projects2{
+  width: 28vw;
+  margin-bottom: 5rem;
+  padding-right: 4rem;
+}
+
+
 .Bio{
   display: flex;
   justify-content: center;
@@ -63,6 +78,40 @@ body {
   padding-bottom: 2.5rem;
 }
 
+.Home2 {
+  padding-right: 5vw;
+  padding-left: 5vw;
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 10vh;
+  display: flex;
+  padding-bottom: 2.5rem;
+}
+
+.Home2 h1 {
+  font-size: 2rem;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+
+
+.Home2 p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    font-weight: normal;
+  }
+
+  .Home2 h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+
+
 .Toggl {
   display: flex;
   flex-direction: row;
@@ -90,8 +139,8 @@ h2 {
 
 #Footer {
   width: 85vw;
-  position: sticky;
-  bottom: 0;
+  position: absolute;
+  bottom: 0rem;
   left: 50;
   display: flex;
   justify-content: space-between;
