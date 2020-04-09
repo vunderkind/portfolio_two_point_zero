@@ -35,6 +35,8 @@ body {
   width: 85vw;
   margin: 0 auto;
   padding-top: 10px;
+  position: sticky;
+  top: 0rem;
 }
 .Resume {
   display: flex;
@@ -88,7 +90,7 @@ h2 {
 
 #Footer {
   width: 85vw;
-  position: absolute;
+  position: sticky;
   bottom: 0;
   left: 50;
   display: flex;
