@@ -5,7 +5,7 @@ body {
   width: 100vw;
   /* padding-top: 90px; */
   margin: 0 auto;
-  height: 95vh;
+  height: 100vh;
 }
 
 .Move {
@@ -152,4 +152,50 @@ h2 {
   margin: 0;
   margin-bottom: 10px;
   padding-right: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Nav {
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2px;
+    position: relative;
+  }
+
+  .Resume {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Resume p {
+    padding-right: 5px;
+    margin: 5px auto;
+    /* display: none; */
+  }
+  .Home {
+    margin: 0;
+    padding-top: 20vw;
+    width: 100vw;
+  }
+
+  .Bio {
+    width: 100vw;
+    padding: 0;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin: 0;
+  }
+  .Home h1 {
+    font-size: 2rem;
+  }
+  .Hedgehog {
+    text-align: center;
+  }
+
+  .MobileTweak {
+    display: flex;
+    flex-direction: row;
+  }
 }

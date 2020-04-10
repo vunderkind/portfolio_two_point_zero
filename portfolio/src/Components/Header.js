@@ -8,6 +8,7 @@ function Header(props) {
         <div className="Nav">
           <a href="/"><strong><p>{props.theme === 'light'? '<justin/>':'<mogwai/>'}</p></strong></a>
           <div className="Resume">
+              <div className="MobileTweak">
           <span className="Arrow">
           <a href="#"><p>Resume</p></a>
           <Arrow className="Arrow"/>
@@ -20,7 +21,8 @@ function Header(props) {
           <a href="mailto:'justin.irabor@gmail.com'"><p>Contact</p></a>
           <Arrow />
           </span>
-          <Toggle theme={props.theme} toggleTheme={props.toggleTheme} />
+          </div>
+          <Toggle className='Toggle' theme={props.theme} toggleTheme={props.toggleTheme} />
           </div>
           </div>
     )
