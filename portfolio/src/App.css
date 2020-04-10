@@ -182,8 +182,10 @@ body, html {
   margin: 0;
   padding: 0;
   padding-top: 10px;
-  flex-direction: column;
+  flex-direction: row;
   position: fixed;
+  align-items: flex-start;
+
 }
 
 .Bio {
@@ -204,7 +206,7 @@ body, html {
   flex-direction: column;
   margin: 0;
   padding: 0;
-  margin-bottom: 2vh;
+  /* margin-bottom: 2vh; */
 }
 .Resume p {
   margin: 0;
