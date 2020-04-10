@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@700&display=swap');
+
+
+
 body {
   width: 100%;
   margin: 0 auto;
@@ -50,6 +53,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 85vw;
+  height: 8vh;
   margin: 0 auto;
   padding-top: 10px;
   position: sticky;
@@ -143,13 +147,13 @@ h2 {
   width: 85vw;
   position: sticky;
   position: fixed;
-  height: 10%;
+  height: 5vh;
   bottom: 0;
   left: 0;
   display: flex;
   justify-content: space-between;
   margin-left: 7vw;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 #Footer p {
