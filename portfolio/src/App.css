@@ -196,7 +196,7 @@ body, html {
   margin: 0 auto;
   padding:0;
   width: 90vw;
-  padding-top: 30vh;
+  padding-top: 15vh;
 }
 .Home {
   width: 90vw;
@@ -224,10 +224,10 @@ body, html {
   display: none;
 }
 .Home h1 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 .Home h2 {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .Hedgehog {
