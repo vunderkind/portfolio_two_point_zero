@@ -1,14 +1,13 @@
 import React from 'react'
 import Arrow from './Arrow'
 import Toggle from './Toggle'
-import {BrowserRouter as Router, Link,} from 'react-router-dom'
+// import {BrowserRouter as Router, Link,} from 'react-router-dom'
 
 function Header(props) {
     return(
-        <div className="Nav">
+        <div className="Nav" style={{background:`${props.theme === 'light'? '#FFE57D': 'black'}`}}>
           <a href="/"><strong><p>{props.theme === 'light'? '<justin/>':'<mogwai/>'}</p></strong></a>
           <div className="Resume">
-              <div className="MobileTweak">
           <span className="Arrow">
           <a href="#"><p>Resume</p></a>
           <Arrow className="Arrow"/>
@@ -23,7 +22,6 @@ function Header(props) {
           </span>
           </div>
           <Toggle className='Toggle' theme={props.theme} toggleTheme={props.toggleTheme} />
-          </div>
           </div>
     )
 }
