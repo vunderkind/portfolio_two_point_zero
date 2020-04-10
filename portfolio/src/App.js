@@ -6,7 +6,8 @@ import Projects from './Components/Projects'
 import Header from './Components/Header'
 import Home from './Components/Home'
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
-import Arrow from './Components/Arrow';
+// import Arrow from './Components/Arrow';
+import Footer from './Components/Footer'
 
 const GlobalStyles = createGlobalStyle`
   body {
@@ -86,14 +87,7 @@ function App() {
             <Route exact path="/projects"><Projects/></Route>
             <Route exact path="/"><Home theme={theme}/></Route>
             </Router>
-          <nav id="Footer">
-          <span className="Left">
-            <a href="https://www.linkedin.com/in/justinirabor/"><p>LinkedIn<Arrow/></p></a>
-            <a href="https://github.com/vunderkind"><p>Github<Arrow/></p></a>
-            </span>
-            <a href="/projects">Projects<Arrow/></a>
-            
-          </nav>
+      <Footer theme={theme}/>
     </ThemeProvider>
   );
 };

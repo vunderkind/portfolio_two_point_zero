@@ -6,6 +6,10 @@ body {
   height: 90%;
 }
 
+.Ninja{
+  display: none;
+}
+
 .Move {
   animation: MoveUpDown 2s ease-in-out infinite;
 }
@@ -205,6 +209,7 @@ body, html {
 .Arrow {
   padding: 0;
   margin-bottom: 2vh;
+  display: none;
 }
 .Home h1 {
   font-size: 2rem;
@@ -225,12 +230,16 @@ body, html {
 
 #Footer {
   position: fixed;
-  bottom: 0;
-  width: 90vw;
-  left: 0;
-  right: 0;
-  top: 80vh;
-  padding-top: 3rem;
+  margin: 0;
+  padding: 0;
+  width: 95vw;
+  /* left: 5vw; */
+  height: 5vh;
+}
+
+
+#Footer a {
+  padding-right: 10px;
 }
 
 .Home2 {
@@ -248,5 +257,11 @@ body, html {
   margin: 0;
   padding: 0;
   padding-bottom: 5em;
+}
+.Ninja {
+  display: flex;
+}
+#Footer a {
+  font-size: 0.8rem;
 }
 }
