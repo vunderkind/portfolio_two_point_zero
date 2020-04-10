@@ -20,8 +20,8 @@ function Header(props) {
           <a href="mailto:'justin.irabor@gmail.com'"><p>Contact</p></a>
           <Arrow />
           </span>
+          <Toggle className='Toggle' theme={props.theme} toggleTheme={props.toggleTheme}/>
           </div>
-          <Toggle className='Toggle' theme={props.theme} toggleTheme={props.toggleTheme} />
           </div>
     )
 }

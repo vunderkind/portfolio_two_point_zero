@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@700&display=swap');
 body {
-  /* background: yellow; */
-  width: 100vw;
-  /* padding-top: 90px; */
+  width: 100%;
   margin: 0 auto;
-  height: 100vh;
+  height: 90%;
 }
 
 .Move {
@@ -139,9 +137,11 @@ h2 {
 
 #Footer {
   width: 85vw;
-  position: absolute;
-  bottom: 0rem;
-  left: 50;
+  position: sticky;
+  position: fixed;
+  height: 10%;
+  bottom: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   margin-left: 7vw;
@@ -155,47 +155,98 @@ h2 {
 }
 
 @media only screen and (max-width: 600px) {
-  .Nav {
-    width: 100vw;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 2px;
-    position: relative;
-  }
+body, html {
+  width: 90vw;
+  height: 100vh;
+  display: flex;
+  margin: 0 auto;
+}
 
-  .Resume {
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .Resume p {
-    padding-right: 5px;
-    margin: 5px auto;
-    /* display: none; */
-  }
-  .Home {
-    margin: 0;
-    padding-top: 20vw;
-    width: 100vw;
-  }
+#root {
+  width: 90vw;
+  height: 100vh;
+  margin: 0 auto;
+}
 
-  .Bio {
-    width: 100vw;
-    padding: 0;
-    padding-left: 3vw;
-    padding-right: 3vw;
-    margin: 0;
-  }
-  .Home h1 {
-    font-size: 2rem;
-  }
-  .Hedgehog {
-    text-align: center;
-  }
+.Nav {
+  width: 90vw;
+  margin: 0;
+  padding: 0;
+  padding-top: 10px;
+  flex-direction: column;
+}
 
-  .MobileTweak {
-    display: flex;
-    flex-direction: row;
-  }
+.Bio {
+  margin: 0 auto;
+  padding:0;
+  width: 90vw;
+  padding-top: 2vh;
+}
+.Home {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.Resume {
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2vh;
+}
+.Resume p {
+  margin: 0;
+  padding-right: 3px;
+  font-size: 0.9rem;
+}
+
+.Arrow {
+  padding: 0;
+  margin-bottom: 2vh;
+}
+.Home h1 {
+  font-size: 2rem;
+}
+.Home h2 {
+  font-size: 1rem;
+}
+
+.Hedgehog {
+  width: 40px;
+  margin: 0;
+  display: none;
+}
+
+.Move {
+  animation: none;
+}
+
+#Footer {
+  position: fixed;
+  bottom: 0;
+  width: 90vw;
+  left: 0;
+  right: 0;
+  top: 80vh;
+  padding-top: 3rem;
+}
+
+.Home2 {
+  margin: 0;
+  padding: 0;
+}
+.Projects {
+  width: 90vw;
+  padding: 0;
+  margin: 0;
+}
+
+.Projects2 {
+  width: 90vw;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5em;
+}
 }

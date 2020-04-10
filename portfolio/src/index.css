@@ -1,7 +1,8 @@
 
-body {
+html, body {
   font-family: 'Lora', serif;
-  width: 100vw;
+  width: 100%;
+  height: 100vh;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'C antarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

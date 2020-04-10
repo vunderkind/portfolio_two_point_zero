@@ -16,19 +16,20 @@ const Toggle = ({ theme, toggleTheme }) => {
   
   const ToggleContainer = styled.button`
     background: ${({ theme }) => theme.background};
-    width: 6rem;
-    height: 2.5rem;
+    width: 3rem;
+    height: 1.5rem;
     margin: 0;
+    margin-top:1rem;
     border-radius: 30px;
     border: 2px solid ${({ theme }) => theme.toggleBorder};
-    font-size: 0.5rem;
+    font-size: 0.2rem;
     padding: 0rem;
     overflow: hidden;
     cursor: pointer;
     outline: none;
   
     img {
-      max-width: 2.2rem;
+      max-width: 1.3rem;
       height: auto;
       transition: all 0.3s linear;
   

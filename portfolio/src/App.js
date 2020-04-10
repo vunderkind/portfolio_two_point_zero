@@ -94,7 +94,6 @@ function App() {
             <a href="/projects">Projects<Arrow/></a>
             
           </nav>
-        {/* <Footer /> */}
     </ThemeProvider>
   );
 };
