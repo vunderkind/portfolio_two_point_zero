@@ -65,12 +65,14 @@ body {
 
 .Resume p {
   padding-right: 5px;
+  margin: 0;
 }
 
 .Arrow {
   display: flex;
   flex-direction: row;
   padding-right: 25px;
+  margin: 0;
 }
 
 
@@ -184,10 +186,12 @@ body, html {
   padding-top: 10px;
   flex-direction: row;
   position: fixed;
-  align-items: flex-start;
+  align-items: center;
 
 }
-
+.Nav p {
+  margin: 0;
+}
 .Bio {
   margin: 0 auto;
   padding:0;

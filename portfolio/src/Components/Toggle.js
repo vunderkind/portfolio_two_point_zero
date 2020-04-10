@@ -19,7 +19,7 @@ const Toggle = ({ theme, toggleTheme }) => {
     width: 3rem;
     height: 1.5rem;
     margin: 0;
-    margin-top:1rem;
+    // margin-top:1rem;
     border-radius: 30px;
     border: 2px solid ${({ theme }) => theme.toggleBorder};
     font-size: 0.2rem;
