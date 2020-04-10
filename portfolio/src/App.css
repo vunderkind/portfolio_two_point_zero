@@ -174,17 +174,19 @@ body, html {
 
 .Nav {
   width: 90vw;
+  height: 8vh;
   margin: 0;
   padding: 0;
   padding-top: 10px;
   flex-direction: column;
+  position: fixed;
 }
 
 .Bio {
   margin: 0 auto;
   padding:0;
   width: 90vw;
-  padding-top: 2vh;
+  padding-top: 30vh;
 }
 .Home {
   width: 90vw;
@@ -230,11 +232,15 @@ body, html {
 
 #Footer {
   position: fixed;
-  margin: 0;
   padding: 0;
-  width: 95vw;
-  /* left: 5vw; */
-  height: 5vh;
+  width: 90vw;
+  left: 5vw;
+  /* right: 5vw; */
+  /* height: 5vh; */
+  margin: 0;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-end;
 }
 
 

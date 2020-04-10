@@ -3,7 +3,7 @@ import '../App.css'
 
 function Footer(props){
     return(
-        <nav id="Footer" style={{background:`${props.theme === 'light'? '#FFE57D': 'black'}`}}>
+        <nav id="Footer">
             <a href="https://www.linkedin.com/in/justinirabor/"><p>LinkedIn</p></a>
             <a href="https://github.com/vunderkind"><p>Github</p></a>
             <a href="/projects"><p>Projects</p></a>

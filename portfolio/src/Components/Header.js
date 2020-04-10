@@ -5,7 +5,7 @@ import Toggle from './Toggle'
 
 function Header(props) {
     return(
-        <div className="Nav" style={{background:`${props.theme === 'light'? '#FFE57D': 'black'}`}}>
+        <div className="Nav">
           <a href="/"><strong><p>{props.theme === 'light'? '<justin/>':'<mogwai/>'}</p></strong></a>
           <div className="Resume">
           <span className="Arrow">

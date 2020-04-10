@@ -10,7 +10,7 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
 import Footer from './Components/Footer'
 
 const GlobalStyles = createGlobalStyle`
-  body {
+  body, .Nav, #Footer {
     background: ${({ theme }) => theme.body};
     color: ${({ theme }) => theme.text};
     transition: all 0.25s linear;
