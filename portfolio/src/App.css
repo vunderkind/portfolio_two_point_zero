@@ -8,10 +8,24 @@ body {
   margin: 0 auto;
   height: 90%;
 }
+.AHome {
+  margin-bottom: 5vh;
+}
+
+.AHome p {
+  line-height: 1.5;
+  text-align: justify;
+  font-size: 1.1em;
+}
 
 .About {
   width: 50vw;
   margin: 0 auto;
+}
+
+.About a {
+  /* color: red; */
+  text-decoration: underline;
 }
 
 .AHome h1{
