@@ -1,6 +1,7 @@
 import React from 'react'
 import justin from './justin.gif';
 import bicycle from './bicycle.jpeg';
+import facedead from './facedead.jpg'
 
 function Home(props) {
     return (
@@ -21,13 +22,17 @@ function Home(props) {
         <img src={bicycle} alt='bike' className="Aboutimg"/>
         <p>I do some writing on my Substack blog titled <a href="https://dowhile.substack.com">'Do While Thinking'</a> (geddit...? hah!) where I try to break my mind from the monotone of constant execution without pausing to think. There's no gimmick to the title: it is me doing things while thinking about doing things - keeping the mind sharp while the fingers continue to wear down expensive Macbook keyboards. </p>
         <br/>
-        {/* <img src={draw2} alt='draw2'/> */}
+        <img src={facedead} alt='draw2'style={{width:'50%'}}/>
         <h2>The money quotes</h2>
         <p>This section is reserved for things I've said in the past that I imagine someone cooler said:</p>
         <p>"Passion is its own punishment" - Some guy</p>
         <p>"I imagine that whenever man makes another breakthrough that lets them see farther into space, God mumbles "great, now I have to render that part of the universe."</p>
         <p>"Everyone snores the same, regardless of nationality."</p>
         <p>"Breathe deep. You won't die. And if you die, you're dead."</p>
+        <p>"The critic must know something the maker doesn't. Sometimes the critics knows distribution better. sometimes the critic is more connected with the hoi polloi. In some instances, the critic has more knowledge of the theme, the philosophy, the exploration the creator is attempting. Whatever the case, the critic should know something the maker doesn't."</p>
+        <br/>
+        <a href="mailto:thevunderkind@gmail.com"><h2>Fancy a chat? Send me an email -->📩</h2></a>
+        <br/><br/><br/><br/><br/>
 
         </div>
         </div>
