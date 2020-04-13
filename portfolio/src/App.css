@@ -309,4 +309,11 @@ body, html {
 #Footer a {
   font-size: 0.8rem;
 }
+
+.About{
+  width: 80vw;
+}
+.AHome h1{
+  font-weight: bold;
+}
 }
