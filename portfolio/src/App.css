@@ -309,7 +309,9 @@ body, html {
 #Footer a {
   font-size: 0.8rem;
 }
-
+.AHome {
+  margin-top: 15vh;
+}
 .About{
   width: 80vw;
 }
