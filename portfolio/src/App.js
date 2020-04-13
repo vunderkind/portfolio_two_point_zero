@@ -6,6 +6,7 @@ import Projects from './Components/Projects'
 import Header from './Components/Header'
 import Home from './Components/Home'
 import {BrowserRouter as Router, Route, Link} from 'react-router-dom'
+import About from './Components/About'
 // import Arrow from './Components/Arrow';
 import Footer from './Components/Footer'
 
@@ -85,6 +86,7 @@ function App() {
       <Header theme={theme} toggleTheme={toggleTheme}/>
             <Router>
             <Route exact path="/projects"><Projects/></Route>
+            <Route exact path="/about"><About/></Route>
             <Route exact path="/"><Home theme={theme}/></Route>
             </Router>
       <Footer theme={theme}/>

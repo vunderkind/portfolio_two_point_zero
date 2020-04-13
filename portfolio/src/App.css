@@ -9,6 +9,20 @@ body {
   height: 90%;
 }
 
+.About {
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.AHome h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.Aboutimg{
+  width:100%;
+}
+
 .Ninja{
   display: none;
 }
