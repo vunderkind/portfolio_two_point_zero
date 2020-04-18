@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Lato:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
 
 
 
@@ -161,7 +162,7 @@ body {
 .Home h1 {
   /* color: rgb(48, 48, 48); */
   font-size: 70px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: bold;
   margin: 0;
 }
