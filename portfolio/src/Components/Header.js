@@ -9,7 +9,7 @@ function Header(props) {
           <a href="/"><strong><p>{props.theme === 'light'? '<justin/>':'<mogwai/>'}</p></strong></a>
           <div className="Resume">
           <span className="Arrow">
-          <a href="https://res.cloudinary.com/studio-mogwai/image/upload/v1587347726/Justin_Irabor_CV.pdf"><p>Resume</p></a>
+          <a href="https://drive.google.com/file/d/1YXFleB6funHDbD9mTcDCpzhYGNHXkV6F/view"><p>Resume</p></a>
           <Arrow className="Arrow"/>
           </span>
           <span className="Arrow">
