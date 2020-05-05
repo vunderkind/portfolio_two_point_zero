@@ -9,7 +9,7 @@ function Footer(props){
             <a href="/projects"><p>Projects</p></a>
             <a href="/about"><p>About</p></a>
             <span className="Ninja">
-            <a href="https://res.cloudinary.com/studio-mogwai/image/upload/v1587347726/Justin_Irabor_CV.pdf"><p>Resume</p></a>
+            <a href="https://drive.google.com/file/d/1YXFleB6funHDbD9mTcDCpzhYGNHXkV6F/view"><p>Resume</p></a>
             <a href="https://dev.to/vunderkind"><p>Blog</p></a>
             </span>
             
