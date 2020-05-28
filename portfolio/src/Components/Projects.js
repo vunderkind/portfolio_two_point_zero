@@ -15,6 +15,12 @@ const projects = [
         link: "https://pure-retail.com",
         },
         {
+            title: "TENNIS!",
+            description: "A gratifying exploration of the Canvas API. The result? A game of tennis. It's you versus Walter, the suspiciously limber AI opponent. Engarde! (or is that another sport?)",
+            tools: "Vanilla JavaScript, Canvas API",
+            link: "https://snek.vunderkind.now.sh/games/tennis.html",
+            },
+        {
             title: "Race Against Corona",
             description: "A MUD (multi-user dungeon) game with the simple objective of finding a cure for the coronavirus. You start out as the lone healthy person in a city overtaken by COVID-19. You must avoid contamination while seeking out a lab where a cure for the virus is located.",
             tools: "Python (Django), React.",
