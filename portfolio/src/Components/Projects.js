@@ -20,6 +20,12 @@ const projects = [
             tools: "Vanilla JavaScript, Canvas API",
             link: "https://snek.vunderkind.now.sh/games/tennis.html",
             },
+            {
+                title: "ASTROFY for Spotify",
+                description: "An app that generates a Spotify playlist for you based on your Horoscope.",
+                tools: "React, Heroku, Vercel, Horoscope.js, Spotify Web API",
+                link: "https://astro.now.sh",
+                }, 
         {
             title: "Race Against Corona",
             description: "A MUD (multi-user dungeon) game with the simple objective of finding a cure for the coronavirus. You start out as the lone healthy person in a city overtaken by COVID-19. You must avoid contamination while seeking out a lab where a cure for the virus is located.",
