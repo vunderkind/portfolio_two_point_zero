@@ -21,10 +21,10 @@ const projects = [
             link: "https://snek.vunderkind.now.sh/games/tennis.html",
             },
             {
-                title: "The 33ASTROFY for Spotify",
+                title: "ASTROFY for Spotify",
                 description: "An app that generates a Spotify playlist for you based on your Horoscope.",
                 tools: "React, Heroku, Vercel, Horoscope.js, Spotify Web API",
-                link: "https://astro.now.sh",
+                link: "https://astrofy.live",
                 }, 
         {
             title: "Race Against Corona",
