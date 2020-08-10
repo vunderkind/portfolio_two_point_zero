@@ -1,6 +1,5 @@
 import React from 'react'
 import justin from './justin.gif';
-// import bicycle from './bicycle.jpeg';
 // import facedead from './facedead.jpg'
 
 function Home(props) {
@@ -20,7 +19,6 @@ function Home(props) {
         <h2>Preoccupations</h2>
         <p>I am a full-stack web developer. I write in JavaScript primarily, and Python, secondarily. React is my frontend library of choice, and I write my REST APIs in NodeJS. I love GraphQL. I love MongoDB and MySQL. I write tests in Jest and Enzyme. I am an active member of Dev.to, and I love to share what I'm learning there, as well as on my blog, thevunderkind.com.</p>
         <p>When I am not bashing my head against a keyboard because something won't act the way I expect it to, I am listening to a crap-load of music, <a href="https://readup.com/@vunderkind">reading a crap-load of blog posts,</a> making sketches or animating or...riding a bicycle with a bunch of kids. </p>
-        {/* <img src={bicycle} alt='bike' className="Aboutimg"/> */}
         <p>I do some writing on my Substack blog titled <a href="https://dowhile.substack.com">'Do While Thinking'</a> (geddit...? hah!) where I try to break my mind from the monotone of constant execution without pausing to think. There's no gimmick to the title: it is me doing things while thinking about doing things - keeping the mind sharp while the fingers continue to wear down expensive Macbook keyboards. </p>
         <br/>
         {/* <img src={facedead} alt='draw2'style={{width:'50%'}}/> */}
